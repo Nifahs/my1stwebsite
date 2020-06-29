@@ -4,11 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        
+        .taskbar a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        table tbody tr td{
+            border: 1px solid black;
+            border-radius: 5px;
+            border-collapse: collapse;
+            text-align: center;
+            width: 100px;
+            padding: 5px 0 5px 0;
+            background-color: rgb(103, 204, 218);
+        }
+
+        table tbody tr td :hover{
+            background-color: rgb(49, 102, 109);
+            color: rgb(255, 255, 255);
+        }
+        table tbody tr td select{
+
+            border: none;
+            text-align: center;
+            width: 100px;
+            padding: 5px 0 5px 0;
+            background-color: rgb(103, 204, 218);
+            font-weight: bold;
+            color: black;
+            font-size: medium;
+        }
+        table{
+            width: 100%;
+            
+        }
+        .article p{
+
+            width: 600px;
+            border: 2px solid black;
+            width: 600px;
+            height: 500px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 5px 10px 0;
+            float: left;
+        }
+        .article p:hover{
+            border-color: rgb(204, 0, 255);
+            color: rgb(61, 42, 165);
+            
+        }
+        .heading{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+    </style>
 </head>
 <body>
+
+    <header>
+        <img src="http://comillarkagoj.com/images/logo.jpg" width="300px" alt="">
+
+        
+       
+        <p style="text-align: right;">রবিবার, ২৮ জুন, ২০২০</p>
+
+        
+    </header>
+
+    <div>
+        <table>
+            <tbody>
+                <tr class="taskbar">
+                    <td><a href="#">আজকের পত্রিকা</a></td>
+                    <td>
+                        
+                        <select name="unions" id="">
+                            <option value=""><a href="cat.php?cd=160">সদর</a></option>
+                            <option value=""><a href="cat.php?cd=161">সদর দক্ষিণ</a></option>
+                            <option value=""><a href="cat.php?cd=162">চৌদ্দগ্রাম</a></option>
+                            <option value=""><a href="cat.php?cd=163">চান্দিনা</a></option>
+                            <option value=""><a href="cat.php?cd=164">দেবীদ্বার</a></option>
+                            <option value=""><a href="cat.php?cd=165">বুড়িচং</a></option>
+                        </select>
+                        
+                    </td>
+                    <td><a href="#">জাতীয়</a></td>
+                    <td><a href="#">খবর</a></td>
+                    <td><a href="#">রাজনীতি</a></td>
+                    <td><a href="#">বিশ্ব</a></td>
+                    <td><a href="#">বিনোদন</a></td>
+                    <td><a href="#">খেলাধুলা</a></td>
+                    <td><a href="#">প্রবাসে কুমিল্লা</a></td>
+                    <td><a href="#">আরও</a></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
-    <h1>git 1st webaite</h1>
-    <h3>now i can push</h3>
-    <h3>change</h3>
+    
+    <div class="article">
+        
+
+        <p>
+            <span class="heading">" বাইডেন হয়তো ‘প্রেসিডেন্ট’ হতে যাচ্ছেন: ট্রাম্প "</span>
+        
+            <img src="https://paloimages.prothom-alo.com/contents/cache/images/640x358x1/uploads/media/2020/06/28/4435493f45e4789b0bc9bf28627205b1-5ef842dece085.jpg" width="500px" alt="">
+            <br>
+            <span>মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প বলেছেন, ‘আমাকে দেশের অনেক মানুষই ভালোবাসেন না। আর এ কারণেই হয়তো আসছে নভেম্বরের নির্বাচনে প্রতিদ্বন্দ্বী প্রার্থী জো বাইডেন ‘প্রেসিডেন্ট’ নির্বাচিত হতে যাচ্ছেন।’ ২৬ জুন ফক্স নিউজকে দেওয়া এক সাক্ষাৎকারে ডোনাল্ড ট্রাম্প এ কথা বলেছেন।
+    
+                
+                
+            </span>
+        </p>
+    </div>
+
+    <div class="article">
+        
+
+        <p>
+            <span class="heading">করোনা সংক্রমণের পূর্বাভাস মেনে ব্যবস্থা নেওয়া হয়নি</span>
+        
+            <img src="https://paloimages.prothom-alo.com/contents/cache/images/320x180x1/uploads/media/2020/05/04/78bd97297711a54a6df31d20720ed6d4-5eaf8f70999c7.png" width="500px" alt="">
+            <br>
+            <span>করোনা সংক্রমণ অতি দ্রুত বাড়তে পারে—এমন চারটি জেলার ব্যাপারে পূর্বাভাস দিয়েছিল কারিগরি বিশেষজ্ঞ দল। জেলাগুলো হলো কুমিল্লা, চট্টগ্রাম, কক্সবাজার ও রংপুর। ১০০ রোগীর কম আছে এমন জেলাকে নিবিড় পর্যবেক্ষণে রাখার কথাও তারা বলেছিল। প্রায় এক মাস পর দেখা যাচ্ছে, চার জেলায় সংক্রমণ বেড়েছে ব্যাপক হারে। রোগী কম থাকা ৩১টি জেলাতেও সংক্রমণ নিয়ন্ত্রণে রাখা যায়নি।
+    
+                
+                
+            </span>
+        </p>
+    </div>
+
+
+    <div class="article">
+        
+
+        <p>
+            <span class="heading">" বাইডেন হয়তো ‘প্রেসিডেন্ট’ হতে যাচ্ছেন: ট্রাম্প "</span>
+        
+            <img src="https://paloimages.prothom-alo.com/contents/cache/images/640x358x1/uploads/media/2020/06/28/4435493f45e4789b0bc9bf28627205b1-5ef842dece085.jpg" width="500px" alt="">
+            <br>
+            <span>মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প বলেছেন, ‘আমাকে দেশের অনেক মানুষই ভালোবাসেন না। আর এ কারণেই হয়তো আসছে নভেম্বরের নির্বাচনে প্রতিদ্বন্দ্বী প্রার্থী জো বাইডেন ‘প্রেসিডেন্ট’ নির্বাচিত হতে যাচ্ছেন।’ ২৬ জুন ফক্স নিউজকে দেওয়া এক সাক্ষাৎকারে ডোনাল্ড ট্রাম্প এ কথা বলেছেন।
+    
+                
+                
+            </span>
+        </p>
+    </div>
+
+    <div class="article">
+        
+
+        <p>
+            <span class="heading">করোনা সংক্রমণের পূর্বাভাস মেনে ব্যবস্থা নেওয়া হয়নি</span>
+        
+            <img src="https://paloimages.prothom-alo.com/contents/cache/images/320x180x1/uploads/media/2020/05/04/78bd97297711a54a6df31d20720ed6d4-5eaf8f70999c7.png" width="500px" alt="">
+            <br>
+            <span>করোনা সংক্রমণ অতি দ্রুত বাড়তে পারে—এমন চারটি জেলার ব্যাপারে পূর্বাভাস দিয়েছিল কারিগরি বিশেষজ্ঞ দল। জেলাগুলো হলো কুমিল্লা, চট্টগ্রাম, কক্সবাজার ও রংপুর। ১০০ রোগীর কম আছে এমন জেলাকে নিবিড় পর্যবেক্ষণে রাখার কথাও তারা বলেছিল। প্রায় এক মাস পর দেখা যাচ্ছে, চার জেলায় সংক্রমণ বেড়েছে ব্যাপক হারে। রোগী কম থাকা ৩১টি জেলাতেও সংক্রমণ নিয়ন্ত্রণে রাখা যায়নি।
+    
+                
+                
+            </span>
+        </p>
+    </div>
+    
 </body>
 </html>
